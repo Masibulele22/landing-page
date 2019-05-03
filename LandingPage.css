@@ -1,0 +1,123 @@
+html {
+    background-color: yellow;
+    font-family: "Boogaloo", cursive;
+    padding: 10px;
+}
+
+body {
+    color: red;
+    margin: 0px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.Heading {
+    text-align: center;
+    background-image: url(a.jpg);
+    color: red;
+    margin: 0px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 130px;
+    
+}
+
+.WebsiteOne {
+    text-align: center;
+    background-image: url(b.jpg);
+    color: red;
+    margin:  0px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 130px;
+
+
+}
+
+.WebsiteTwo {
+    text-align: center;
+    background-image: url(c.jpg);
+    color: red;
+    margin: 0px;
+    padding: 0px;    
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 130px;
+    
+
+}
+
+.center {
+    color: black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margi
+
+}
+
+@media only screen and (min-width: 720px) {
+    html {
+        color: red;
+    }
+    
+    body {
+        color: red;
+    
+    }
+
+    h2 {
+        color: red;
+    
+    }
+    
+    .Heading {
+        text-align: center;
+        background-image: url(a.jpg);
+        color: red;
+        height: 339px;
+        width: 1000px;
+        margin: 0px;
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    
+    .WebsiteOne {
+        text-align: center;
+        background-image: url(b.jpg) no-repeat center center fixed;
+        color: red;
+        height: 339px;
+        width: 1000px;
+        margin: 0px;
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .WebsiteTwo {
+        text-align: center;
+        background-image: url(c.jpg) no-repeat center center fixed;
+        color: red;
+        height: 339px;
+        width: 1000px;
+        margin: 0px;
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .center {
+        color: black;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
